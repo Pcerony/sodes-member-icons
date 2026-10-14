@@ -1,0 +1,68 @@
+[
+  {
+    "id": "heisei",
+    "name": "Heisei",
+    "svg": "assets/svg/heisei.svg",
+    "original": "assets/original/heisei.png"
+  },
+  {
+    "id": "arin",
+    "name": "Arin",
+    "svg": "assets/svg/arin.svg",
+    "original": "assets/original/arin.png"
+  },
+  {
+    "id": "feixue",
+    "name": "Feixue",
+    "svg": "assets/svg/feixue.svg",
+    "original": "assets/original/feixue.png"
+  },
+  {
+    "id": "liu",
+    "name": "Liu",
+    "svg": "assets/svg/liu.svg",
+    "original": "assets/original/liu.png"
+  },
+  {
+    "id": "mina",
+    "name": "Mina",
+    "svg": "assets/svg/mina.svg",
+    "original": "assets/original/mina.png"
+  },
+  {
+    "id": "zoe",
+    "name": "Zoe",
+    "svg": "assets/svg/zoe.svg",
+    "original": "assets/original/zoe.png"
+  },
+  {
+    "id": "senda",
+    "name": "Senda",
+    "svg": "assets/svg/senda.svg",
+    "original": "assets/original/senda.png"
+  },
+  {
+    "id": "nodoka",
+    "name": "Nodoka",
+    "svg": "assets/svg/nodoka.svg",
+    "original": "assets/original/nodoka.png"
+  },
+  {
+    "id": "pei",
+    "name": "PEI",
+    "svg": "assets/svg/pei.svg",
+    "original": "assets/original/pei.png"
+  },
+  {
+    "id": "zhang",
+    "name": "Zhang",
+    "svg": "assets/svg/zhang.svg",
+    "original": "assets/original/zhang.png"
+  },
+  {
+    "id": "zhou",
+    "name": "Zhou",
+    "svg": "assets/svg/zhou.svg",
+    "original": "assets/original/zhou.png"
+  }
+]

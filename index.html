@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#A6D62F">
+  <meta name="description" content="SoDes member icon assets.">
+  <title>SoDes Member Icons</title>
+  <link rel="icon" href="assets/svg/heisei.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="assets/lucide.min.js" defer></script>
+  <script src="app.js" type="module"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="identity"><span class="wordmark">SoDes</span><span class="divider"></span><h1>Member Icons</h1></div>
+    <span class="count" id="count">11 members</span>
+  </header>
+  <main>
+    <section class="toolbar" aria-label="Asset settings">
+      <div class="color-tools">
+        <label class="field-label" for="color">Color</label>
+        <input id="color" type="color" value="#a6d62f" aria-label="Icon color" title="Choose icon color">
+        <input id="hex" value="#A6D62F" maxlength="7" spellcheck="false" aria-label="HEX color" aria-describedby="color-error">
+        <div class="swatches" role="group" aria-label="Color presets">
+          <button class="swatch" style="--swatch:#A6D62F" data-color="#A6D62F" aria-label="Lime" aria-pressed="true" title="Lime"></button>
+          <button class="swatch" style="--swatch:#242424" data-color="#242424" aria-label="Charcoal" aria-pressed="false" title="Charcoal"></button>
+          <button class="swatch" style="--swatch:#007D9C" data-color="#007D9C" aria-label="Teal" aria-pressed="false" title="Teal"></button>
+          <button class="swatch" style="--swatch:#D93B55" data-color="#D93B55" aria-label="Coral" aria-pressed="false" title="Coral"></button>
+          <button class="swatch" style="--swatch:#FFFFFF" data-color="#FFFFFF" aria-label="White" aria-pressed="false" title="White"></button>
+        </div>
+        <button id="reset" class="icon-button" aria-label="Reset color" title="Reset color"><i data-lucide="rotate-ccw" aria-hidden="true"></i></button>
+      </div>
+      <div class="view-tools">
+        <div class="segmented" role="group" aria-label="Preview source">
+          <button id="vector-mode" aria-pressed="true">Vector</button>
+          <button id="original-mode" aria-pressed="false">Original</button>
+        </div>
+        <label class="field-label" for="size">PNG size</label>
+        <select id="size"><option value="512">512 px</option><option value="1024" selected>1024 px</option><option value="2048">2048 px</option></select>
+      </div>
+      <span id="color-error" class="color-error" aria-live="polite"></span>
+    </section>
+    <section id="grid" class="grid" aria-label="Member icons" aria-busy="true"></section>
+    <p id="load-error" class="load-error" hidden>Unable to load the icon library. <button id="reload">Retry</button></p>
+  </main>
+  <footer><span>SoDesLab</span><span id="format-label">SVG / Transparent PNG / Original PNG</span></footer>
+  <div id="status" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

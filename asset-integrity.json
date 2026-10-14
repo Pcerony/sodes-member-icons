@@ -1,0 +1,46 @@
+{
+  "heisei": {
+    "selected": "heisei",
+    "sha256": "d93e8e8c9710ed2173d4666259a5e337f0cf755c630b9d9a573075a70d1e6c3d"
+  },
+  "arin": {
+    "selected": "Arin",
+    "sha256": "e93c43d6e4b20836956c6247eab38145e29d89d5fb09d40ba904d0d2f7c6a41c"
+  },
+  "feixue": {
+    "selected": "feixue-v2",
+    "sha256": "1793672104310e6fcd9c95a6b5d93c1bbd1548268336e15f144624356965d462"
+  },
+  "liu": {
+    "selected": "Liu",
+    "sha256": "e1a6f0292d9fc9872d032482abffc84d587bcac5b570d5a5f6e54d47bf642a53"
+  },
+  "mina": {
+    "selected": "Mina",
+    "sha256": "fde414268db5879b6b8d7dd25e7c1b72f80cf141f8993a747523e7edcf903842"
+  },
+  "zoe": {
+    "selected": "zoe-B",
+    "sha256": "f6591970f1ecb4a6e3c9bb9499016c6357ddc9756a595222dee6d548d4187ee1"
+  },
+  "senda": {
+    "selected": "senda",
+    "sha256": "ea97bf310dcc9009bc13fcae093b007cc078bbe920c20a1c32e26c7a3dfab8a2"
+  },
+  "nodoka": {
+    "selected": "nodoka",
+    "sha256": "71c8e79044f83416c12317df157e9cd6243743832c1714c2634b7bd2a3894f1d"
+  },
+  "pei": {
+    "selected": "PEI",
+    "sha256": "c2e8f4bd03917d5c4c5ac458e978b66b6d60181b388f30ee8147530087c99cb5"
+  },
+  "zhang": {
+    "selected": "zhang",
+    "sha256": "014c6a1dd2d14cfc504e97d8b74014591fa10681de7278c8135da67dae0e55e3"
+  },
+  "zhou": {
+    "selected": "zhou",
+    "sha256": "3966e72319ca20c32fd44df558ad2decd0d387127806a66a473cbde3885fb0db"
+  }
+}
